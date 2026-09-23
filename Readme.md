@@ -12,7 +12,7 @@
 
 - [ ] Accessing elements
 - [ ] Traversing
-- [ ] Finding minimum / maximum
+- [x] Finding minimum / maximum
 - [ ] Inserting / removing
 - [ ] Reversing
 
