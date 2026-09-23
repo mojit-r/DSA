@@ -54,6 +54,6 @@
 
 ## 📈 How to Track Progress
 
-1. Change `[ ]` to `[x]` only when you can implement the concept yourself.
+1. Change `[ ]` to `[x]` when you got the concept.
 2. Commit changes regularly to track progress.
 3. When stuck, understand the solution before moving on.
