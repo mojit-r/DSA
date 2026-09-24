@@ -1,4 +1,13 @@
-// the code for finding the small number from the list
+// the code for finding the smallest number from the list
+// Time complexity: O(n)
+// Space complexity: O(1)
+
+/*
+- Big O focuses on how an algorithm scales.
+- Constants are ignored.
+- Two loops do not automatically mean O(n²);
+  I need to check how many times each loop actually runs.
+*/
 
 int solution(List<int> numbers) {
   if (numbers.isEmpty) {

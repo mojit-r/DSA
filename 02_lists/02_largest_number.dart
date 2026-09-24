@@ -1,3 +1,7 @@
+// the code for finding the largest number from the list
+// Time complexity: O(n)
+// Space complexity: O(1)
+
 int solution(List<int> numbers) {
   if (numbers.isEmpty) {
     throw ArgumentError('The list cannot be empty');
