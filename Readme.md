@@ -11,7 +11,7 @@
 ### 2. Arrays & Lists
 
 - [ ] Accessing elements
-- [ ] Traversing
+- [x] Traversing
 - [x] Finding minimum / maximum
 - [ ] Inserting / removing
 - [ ] Reversing
