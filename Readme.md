@@ -10,7 +10,7 @@
 
 ### 2. Arrays & Lists
 
-- [ ] Accessing elements
+- [X] Accessing elements
 - [x] Traversing
 - [x] Finding minimum / maximum
 - [ ] Inserting / removing

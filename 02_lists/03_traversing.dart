@@ -19,6 +19,8 @@ int? solution(List<int> numbers, int? index) {
       return numbers[i];
     }
   }
+  
+  return null;
 }
 
 void main() {
