@@ -1,4 +1,8 @@
-// this code is for traversing
+// code for traversing through the elements and accessing the index element
+
+// Accessing a list element by index is: O(1)
+// Traversing simply means: Go through the elements one by one.
+
 // Time complexity: O(n)
 // Space complexity: O(1)
 
@@ -19,7 +23,7 @@ int? solution(List<int> numbers, int? index) {
       return numbers[i];
     }
   }
-  
+
   return null;
 }
 

@@ -1,4 +1,4 @@
-// this code is for insertion of elements in a list
+// code for insertion of an element into a list
 // Time complexity:  O(n)
 // Space complexity: O(n)
 

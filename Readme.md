@@ -13,7 +13,7 @@
 - [X] Accessing elements
 - [x] Traversing
 - [x] Finding minimum / maximum
-- [ ] Inserting / removing
+- [X] Inserting / removing
 - [ ] Reversing
 
 ### 3. Core Algorithms
