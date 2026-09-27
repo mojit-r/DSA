@@ -1,4 +1,4 @@
-// the code for finding the smallest number from the list
+// Finding the smallest number in a list
 // Time complexity: O(n)
 // Space complexity: O(1)
 

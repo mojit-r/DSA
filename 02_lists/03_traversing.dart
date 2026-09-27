@@ -1,4 +1,4 @@
-// code for traversing through the elements and accessing the index element
+// Traversing through a list to access an element by index.
 
 // Accessing a list element by index is: O(1)
 // Traversing simply means: Go through the elements one by one.

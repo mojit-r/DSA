@@ -1,4 +1,4 @@
-// code for deleting an element from a list
+// Deleting an element from a list
 // Time complexity:  O(n)
 // Space complexity: O(n)
 

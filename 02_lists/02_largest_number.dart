@@ -1,4 +1,4 @@
-// the code for finding the largest number from the list
+// Finding the largest number in a list
 // Time complexity: O(n)
 // Space complexity: O(1)
 
