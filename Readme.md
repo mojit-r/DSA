@@ -14,7 +14,7 @@
 - [x] Traversing
 - [x] Finding minimum / maximum
 - [X] Inserting / removing
-- [ ] Reversing
+- [x] Reversing
 
 ### 3. Core Algorithms
 
