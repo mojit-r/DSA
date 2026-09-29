@@ -1,4 +1,6 @@
 // finding the second smallest number in a list
+// Time complexity: O(n)
+// Space complexity: O(1)
 
 int soultion(List<int> numbers) {
   if (numbers.length < 2) {

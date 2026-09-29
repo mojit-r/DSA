@@ -19,7 +19,7 @@
 ### 3. Core Algorithms
 
 - **Searching**
-  - [ ] Linear Search
+  - [x] Linear Search
   - [ ] Binary Search
 
 - **Sorting**
