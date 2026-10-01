@@ -1,6 +1,6 @@
-// finding the value inside of a list using linear search
+// finding a value inside a list using linear search
 // Time complexity: O(n)
-// Space complexity:O(1)
+// Space complexity: O(1)
 
 int solution(List<int> numbers, int target) {
   for (int i = 0; i < numbers.length; i++) {
