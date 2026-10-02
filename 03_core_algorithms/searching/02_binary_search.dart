@@ -1,7 +1,47 @@
-// finding a value inside a sorted list using linear search
-// Time complexity:
-// Space complexity:
+// finding a value inside a sorted list using binary search
+// Time complexity: O(log n)
+// Space complexity: O(1)
 
+// ATTEMPT TWO
+int solution(List<int> numbers, int target) {
+  int left = 0;
+  int right = numbers.length;
+  int mid = 0;
+
+  for (int i = left; i < right; i == left) {
+    mid = ((right - left) / 2).toInt();
+
+    if (mid == 0) {
+      if (target != numbers[left + mid]) {
+        return -1;
+      }
+    }
+
+    if (target == numbers[left + mid]) {
+      return left + mid;
+    } else if (target < numbers[left + mid]) {
+      right = right - mid;
+    } else {
+      left = left + mid;
+    }
+  }
+
+  return -1;
+}
+
+void main() {
+  List<int> numbers = [3, 7, 12, 18, 25, 31, 40];
+  int target = 41;
+
+  print(solution(numbers, target));
+}
+
+
+
+
+
+// ATTEMPT ONE
+/*
 int solution(List<int> numbers, int target) {
   int index = 0;
   while (numbers.isNotEmpty) {
@@ -41,7 +81,7 @@ void main() {
 
   print(solution(numbers, target));
 }
-
+*/ 
 
 
 
