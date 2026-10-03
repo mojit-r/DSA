@@ -2,8 +2,42 @@
 // Time complexity: O(log n)
 // Space complexity: O(1)
 
-// ATTEMPT TWO
 int solution(List<int> numbers, int target) {
+  int mid = 0;
+  int left = 0;
+  int right = numbers.length;
+
+  while (left < right) {
+    mid = (left + right) ~/ 2;
+
+    if (numbers[mid] == target) {
+      return mid;
+    }
+
+    if (numbers[mid] < target) {
+      left = mid + 1;
+    } else {
+      right = mid;
+    }
+  }
+
+  return -1;
+}
+
+void main() {
+  List<int> numbers = [3, 7, 12, 18, 25, 31, 40];
+  int target = 0;
+
+  print(solution(numbers, target));
+}
+
+
+
+
+
+// ATTEMPT TWO
+/*
+int solution2(List<int> numbers, int target) {
   int left = 0;
   int right = numbers.length;
   int mid = 0;
@@ -33,16 +67,16 @@ void main() {
   List<int> numbers = [3, 7, 12, 18, 25, 31, 40];
   int target = 41;
 
-  print(solution(numbers, target));
+  print(solution2(numbers, target));
 }
-
+*/
 
 
 
 
 // ATTEMPT ONE
 /*
-int solution(List<int> numbers, int target) {
+int solution1(List<int> numbers, int target) {
   int index = 0;
   while (numbers.isNotEmpty) {
     int mid = (numbers.length / 2).toInt();
@@ -79,7 +113,7 @@ void main() {
   final List<int> numbers = [3, 7, 12, 18, 25, 31, 40];
   int target = 25;
 
-  print(solution(numbers, target));
+  print(solution1(numbers, target));
 }
 */ 
 
