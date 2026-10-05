@@ -3,12 +3,11 @@
 // Space complexity: O(1)
 
 int solution(List<int> numbers, int target) {
-  int mid = 0;
   int left = 0;
   int right = numbers.length;
 
   while (left < right) {
-    mid = (left + right) ~/ 2;
+    int mid = (left + right) ~/ 2;
 
     if (numbers[mid] == target) {
       return mid;
@@ -26,7 +25,7 @@ int solution(List<int> numbers, int target) {
 
 void main() {
   List<int> numbers = [3, 7, 12, 18, 25, 31, 40];
-  int target = 0;
+  int target = 25;
 
   print(solution(numbers, target));
 }

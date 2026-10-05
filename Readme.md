@@ -23,7 +23,7 @@
   - [x] Binary Search
 
 - **Sorting**
-  - [ ] Bubble Sort
+  - [x] Bubble Sort
   - [ ] Selection Sort
   - [ ] Insertion Sort
   - [ ] Understand why faster sorts exist (Merge / Quick Sort concept)
