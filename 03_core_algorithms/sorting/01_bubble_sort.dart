@@ -29,3 +29,15 @@ void main() {
     print(e);
   }
 }
+
+
+
+
+
+/* 
+- Need a list as an input.
+- loop through the list to go through every element in the list.
+- loop again the list to compare the adjacent elements and swap them.
+- the second loop can iterate lesser as after each pass, the largest unsorted element moves to the end.
+- return the original list as the elements are swapped inside the same loop only.
+*/
