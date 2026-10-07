@@ -24,7 +24,7 @@
 
 - **Sorting**
   - [x] Bubble Sort
-  - [ ] Selection Sort
+  - [x] Selection Sort
   - [ ] Insertion Sort
   - [ ] Understand why faster sorts exist (Merge / Quick Sort concept)
 
