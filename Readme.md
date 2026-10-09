@@ -25,7 +25,7 @@
 - **Sorting**
   - [x] Bubble Sort
   - [x] Selection Sort
-  - [ ] Insertion Sort
+  - [x] Insertion Sort
   - [ ] Understand why faster sorts exist (Merge / Quick Sort concept)
 
 ### 4. Basic Data Structures & Concepts
