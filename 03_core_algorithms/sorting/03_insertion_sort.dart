@@ -18,7 +18,6 @@ List<int> solution(List<int> numbers) {
 
     numbers[j + 1] = nextValue;
   }
-
   return numbers;
 }
 
