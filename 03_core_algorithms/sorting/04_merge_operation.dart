@@ -1,4 +1,4 @@
-// Sorting using merge sort
+// Sorting using merge operation
 // Time complexity: O(n + m)
 // Space complexirt: O(n + m)
 
