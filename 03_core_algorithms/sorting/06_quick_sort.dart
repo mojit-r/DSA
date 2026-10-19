@@ -1,6 +1,6 @@
 // sorting using quick sort
-// Time complexity:
-// Space complexity:
+// Time complexity: O(n log n) average, O(n²) worst
+// Space complexity: O(n) average, O(n²) worst
 
 List<int> solution(List<int> numbers) {
   List<int> left = [];
@@ -10,7 +10,6 @@ List<int> solution(List<int> numbers) {
   if (numbers.length <= 1) {
     return numbers;
   }
-
   int pivot = numbers[0];
 
   for (int i = 0; i < numbers.length; i++) {
