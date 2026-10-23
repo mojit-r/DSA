@@ -1,6 +1,6 @@
 // practising recursion
 // Time complexity: O(n)
-// Space complexity O(n)
+// Space complexity: O(n)
 
 int sumNumbers(int n) {
   if (n <= 0) {
