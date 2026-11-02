@@ -3,7 +3,7 @@
 // Space complexity: O(d)
 
 int sumDigits(List<int> splitDigits, {int sum = 0, index = 0}) {
-  if (splitDigits.length - index <= 0) {
+  if (index >= splitDigits.length) {
     return sum;
   }
 
@@ -29,9 +29,10 @@ void main() {
 /*
 - convert the numbers into thee list of digits (or we could have converted into the String) in order to access the single digits.
 - take the list of single digits as input,
-- check if the number .length is <= 1, if yes then add it and return the value of the sum.
-- then add the first/ digit of the number to the sum variable, and remove the digit from the number.
-- pass the new number along with sum variable and pass it to the sumDigits function.
+- Maintain an index starting at zero.
+- Add the digit at the current index to the sum.
+- Increment the index and make the recursive call.
+- Stop when the index reaches the list length.
 */
 
 // another way trying without list as seen from the google(about other way of spliting numbers)
