@@ -12,18 +12,19 @@ int sumDigits(List<int> splitDigits, {int sum = 0, index = 0}) {
 }
 
 void main() {
-  int number = 908;
+  int number = -908;
 
   List<int> numberList = [];
   numberList.add(number);
   List<int> splitDigits = numberList[0]
+      .abs()
       .toString()
       .split('')
       .map((digit) => int.parse(digit))
       .toList();
 
   print('$number : ${sumDigits(splitDigits)}');
-  print('$number : ${summingDigits(number)}');
+  print('$number : ${summingDigits(number.abs())}');
 }
 
 /*
