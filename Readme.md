@@ -30,8 +30,8 @@
 
 ### 4. Basic Data Structures & Concepts
 
-- [ ] Strings
-- [ ] Recursion
+- [x] Strings
+- [x] Recursion
 
 ### 5. Advanced Linear Data Structures
 
