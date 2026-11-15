@@ -63,8 +63,8 @@ void main() {
 - take the string as an input to the methond.
 - we will create a counter i = 0 (for the index comparing from both forward and backward).
 - in while loop we will put the condition that if (i <= text.length ~/ 2.
-- inside the while loop we will the first condition we will check is that if (text.length - (i+i) <= 1), then return true;
+- inside the while loop, the first condition we will check is that if (text.length - (i+i) <= 1), then return true;
 - and the second condition would be that if (text[i] == text[text.length - 1 - i]), then we will increase the counter i++.
-- else false will be returned.
+- else false will be returned.  
 - and at the end of the list we will increase the counter by doing i++.
 */
